@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB022EDE298A807200545DBD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB022EDD298A807200545DBD /* SecondViewController.swift */; };
+		DB26CB6A298C77820094AC1A /* Rss reader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB26CB68298C77820094AC1A /* Rss reader.xcdatamodeld */; };
+		DB26CB6C298C78000094AC1A /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26CB6B298C78000094AC1A /* DataBase.swift */; };
+		DBA05313E3364487803E0248 /* Pods_Rss_reader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87351E9C95600BBF5B545FEB /* Pods_Rss_reader.framework */; };
 		DBE6F3F32989584C00033F72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6F3F22989584C00033F72 /* AppDelegate.swift */; };
 		DBE6F3F52989584C00033F72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6F3F42989584C00033F72 /* SceneDelegate.swift */; };
 		DBE6F3F72989584C00033F72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6F3F62989584C00033F72 /* ViewController.swift */; };
 		DBE6F3FA2989584C00033F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE6F3F82989584C00033F72 /* Main.storyboard */; };
 		DBE6F3FC2989584F00033F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE6F3FB2989584F00033F72 /* Assets.xcassets */; };
 		DBE6F3FF2989584F00033F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE6F3FD2989584F00033F72 /* LaunchScreen.storyboard */; };
+		DBE6F4072989587500033F72 /* modelXml.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6F4062989587500033F72 /* modelXml.swift */; };
+		DBE6F4092989CAB900033F72 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6F4082989CAB900033F72 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B142D47EFB9CEE052CDB60E /* Pods-Rss reader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rss reader.debug.xcconfig"; path = "Target Support Files/Pods-Rss reader/Pods-Rss reader.debug.xcconfig"; sourceTree = "<group>"; };
+		87351E9C95600BBF5B545FEB /* Pods_Rss_reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rss_reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEFF4AA14D42B439CCC1C0C /* Pods-Rss reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rss reader.release.xcconfig"; path = "Target Support Files/Pods-Rss reader/Pods-Rss reader.release.xcconfig"; sourceTree = "<group>"; };
+		DB022EDD298A807200545DBD /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DB26CB69298C77820094AC1A /* Rss reader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Rss reader.xcdatamodel"; sourceTree = "<group>"; };
+		DB26CB6B298C78000094AC1A /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
 		DBE6F3EF2989584C00033F72 /* Rss reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rss reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE6F3F22989584C00033F72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBE6F3F42989584C00033F72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,8 @@
 		DBE6F3FB2989584F00033F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBE6F3FE2989584F00033F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBE6F4002989584F00033F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE6F4062989587500033F72 /* modelXml.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelXml.swift; sourceTree = "<group>"; };
+		DBE6F4082989CAB900033F72 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA05313E3364487803E0248 /* Pods_Rss_reader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48942A70B8EDC07259188180 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B142D47EFB9CEE052CDB60E /* Pods-Rss reader.debug.xcconfig */,
+				AEEFF4AA14D42B439CCC1C0C /* Pods-Rss reader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		852999363D02990788CEA874 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87351E9C95600BBF5B545FEB /* Pods_Rss_reader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DBE6F3E62989584C00033F72 = {
 			isa = PBXGroup;
 			children = (
 				DBE6F3F12989584C00033F72 /* Rss reader */,
 				DBE6F3F02989584C00033F72 /* Products */,
+				48942A70B8EDC07259188180 /* Pods */,
+				852999363D02990788CEA874 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,9 +93,14 @@
 				DBE6F3F22989584C00033F72 /* AppDelegate.swift */,
 				DBE6F3F42989584C00033F72 /* SceneDelegate.swift */,
 				DBE6F3F62989584C00033F72 /* ViewController.swift */,
+				DB022EDD298A807200545DBD /* SecondViewController.swift */,
+				DBE6F4082989CAB900033F72 /* TableViewCell.swift */,
+				DB26CB6B298C78000094AC1A /* DataBase.swift */,
+				DBE6F4062989587500033F72 /* modelXml.swift */,
 				DBE6F3F82989584C00033F72 /* Main.storyboard */,
 				DBE6F3FB2989584F00033F72 /* Assets.xcassets */,
 				DBE6F3FD2989584F00033F72 /* LaunchScreen.storyboard */,
+				DB26CB68298C77820094AC1A /* Rss reader.xcdatamodeld */,
 				DBE6F4002989584F00033F72 /* Info.plist */,
 			);
 			path = "Rss reader";
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBE6F4032989584F00033F72 /* Build configuration list for PBXNativeTarget "Rss reader" */;
 			buildPhases = (
+				FD6C3F3E862A76D8C98CB12A /* [CP] Check Pods Manifest.lock */,
 				DBE6F3EB2989584C00033F72 /* Sources */,
 				DBE6F3EC2989584C00033F72 /* Frameworks */,
 				DBE6F3ED2989584C00033F72 /* Resources */,
+				CC6966266E5A9764533FDD4B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +174,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CC6966266E5A9764533FDD4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rss reader/Pods-Rss reader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rss reader/Pods-Rss reader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rss reader/Pods-Rss reader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD6C3F3E862A76D8C98CB12A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rss reader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBE6F3EB2989584C00033F72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB022EDE298A807200545DBD /* SecondViewController.swift in Sources */,
+				DBE6F4092989CAB900033F72 /* TableViewCell.swift in Sources */,
+				DB26CB6A298C77820094AC1A /* Rss reader.xcdatamodeld in Sources */,
 				DBE6F3F72989584C00033F72 /* ViewController.swift in Sources */,
+				DB26CB6C298C78000094AC1A /* DataBase.swift in Sources */,
 				DBE6F3F32989584C00033F72 /* AppDelegate.swift in Sources */,
 				DBE6F3F52989584C00033F72 /* SceneDelegate.swift in Sources */,
+				DBE6F4072989587500033F72 /* modelXml.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +370,7 @@
 		};
 		DBE6F4042989584F00033F72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B142D47EFB9CEE052CDB60E /* Pods-Rss reader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +398,7 @@
 		};
 		DBE6F4052989584F00033F72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEEFF4AA14D42B439CCC1C0C /* Pods-Rss reader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -356,6 +446,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB26CB68298C77820094AC1A /* Rss reader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB26CB69298C77820094AC1A /* Rss reader.xcdatamodel */,
+			);
+			currentVersion = DB26CB69298C77820094AC1A /* Rss reader.xcdatamodel */;
+			path = "Rss reader.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DBE6F3E72989584C00033F72 /* Project object */;
 }
